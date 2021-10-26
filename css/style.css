@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+}
+
+.search{
+    height: 50vh;
+    /* border: 2px solid red; */
+}
+.flexBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBox{
+    border:1px solid;
+    width: 20%;
+    height: 10%;
+    border-radius: 1rem;
+    padding: 0px 1rem 0 1rem;
+    margin:0.5rem;
+    background-color: #afd8d942;
+}
+
+#searchBtn
+{
+    border:1px solid;
+    border-radius: 1rem;
+    width:10vw;
+    height: 10%;
+    font-weight:900;
+}
