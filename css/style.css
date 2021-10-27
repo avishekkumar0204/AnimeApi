@@ -3,17 +3,19 @@
     padding:0;
     background-color: aliceblue;
     font-family: 'Roboto Slab', serif;
-}
-
-.search{
-    height: 50vh;
-    /* border: 2px solid red; */
+    font-weight: bolder;
 }
 .flexBox{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/***** Search part starts******/
+.search{
+    height: 50vh;
+    /* border:2px solid red; */
 }
 
 #searchBox{
@@ -34,3 +36,87 @@
     height: 10%;
     font-weight:900;
 }
+#searchBtn:hover{
+    cursor:pointer;
+}
+/***** Search part ends******/
+
+
+
+
+/****** anime part starts here ******/
+
+#animeList{
+    /* border:2px solid green; */
+    /* overflow:scroll; */
+    flex-direction: row;
+}
+#animeList>li{
+    list-style: none;
+    min-height: 30vh;
+    width: 60vw;
+    /* border: 2px solid red; */
+    margin:1rem;
+}
+
+.divForTitle{
+    font-size: 3rem;
+    /* border:2px solid green; */
+    text-align: center;
+    padding: 0.2rem;
+}
+.divForTitle:hover{
+    cursor: pointer;
+}
+.divForTrailer{
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+}
+.divForTrailer>a{
+    /* border: 2px solid yellow; */
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    
+}
+
+.divForGenres{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.divForGenres>span{
+    margin: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    background-color: beige;
+}
+.divForGenres>span:hover{
+    cursor: pointer;;
+}
+
+.divForDescription{
+    text-align: center;
+    /* border: 2px solid purple; */
+    padding: 0.3rem;
+}
+
+.divForSeasonYear{
+    /* border: 2px solid darkorange; */
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:red;
+}
+
+.divForNumberOfEpisode{
+    text-align: center;
+    columns: blue;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+/****** anime part ends here ******/
+
